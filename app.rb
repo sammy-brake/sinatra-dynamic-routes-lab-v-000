@@ -16,6 +16,9 @@ class App < Sinatra::Base
   get '/say/:number/:phrase' do 
     @number = params[:number]
     @phrase = params[:phrase]
-    
+    phrarray = []
+    until phrarray.size == @number do 
+      
+    end 
   end 
 end
