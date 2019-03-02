@@ -20,5 +20,6 @@ class App < Sinatra::Base
     until phrarray.size == @number do 
       phrarray << @phrase
     end 
+    return phrarray
   end 
 end
