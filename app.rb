@@ -17,7 +17,7 @@ class App < Sinatra::Base
     @number = params[:number]
     @phrase = params[:phrase]
     phrarray = []
-    until phrarray.size == @number do 
+    until phrarray.length == @number do 
       phrarray << @phrase
     end 
     return phrarray
