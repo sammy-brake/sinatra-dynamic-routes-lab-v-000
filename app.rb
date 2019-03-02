@@ -20,6 +20,6 @@ class App < Sinatra::Base
     until phrarray.length == @number do 
       phrarray << @phrase
     end 
-    
   end 
+  return phrarray
 end
